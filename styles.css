@@ -534,3 +534,99 @@ li + li {
     font-size: 0.88rem;
   }
 }
+
+.cv-page {
+  background: #fbfaf6;
+}
+
+.cv-shell {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: clamp(32px, 6vw, 72px) clamp(18px, 4vw, 40px);
+}
+
+.cv-hero {
+  padding-bottom: 28px;
+  border-bottom: 2px solid var(--ink);
+}
+
+.cv-hero h1 {
+  margin-bottom: 10px;
+  font-size: clamp(2.6rem, 7vw, 5.4rem);
+}
+
+.cv-hero a,
+.cv-section a {
+  color: var(--green-dark);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cv-title {
+  margin-bottom: 14px;
+  color: #2d332d;
+  font-size: clamp(1.2rem, 2vw, 1.65rem);
+  font-weight: 850;
+}
+
+.cv-section {
+  padding: 28px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.cv-section h2 {
+  margin-bottom: 16px;
+  font-size: clamp(1.45rem, 2.6vw, 2.1rem);
+}
+
+.cv-section p {
+  color: #333933;
+}
+
+.cv-item + .cv-item {
+  margin-top: 22px;
+}
+
+.cv-item h3 {
+  margin-bottom: 6px;
+  font-size: 1.2rem;
+}
+
+.cv-meta {
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-weight: 750;
+}
+
+.skill-list.compact span {
+  min-height: 30px;
+  font-size: 0.86rem;
+}
+
+@media print {
+  .site-header {
+    display: none;
+  }
+
+  body,
+  .cv-page {
+    background: white;
+  }
+
+  .cv-shell {
+    max-width: none;
+    padding: 0;
+  }
+
+  .cv-section {
+    break-inside: avoid;
+    padding: 18px 0;
+  }
+
+  .button,
+  .tags span,
+  .skill-list span {
+    box-shadow: none;
+  }
+}

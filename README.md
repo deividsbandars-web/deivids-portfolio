@@ -1,10 +1,10 @@
 # Deivids Bandars Portfolio
 
-Static portfolio site intended for `deivids.ghocoyops.com`.
+Static portfolio and CV site intended for `deivids.ghocoyops.com`.
 
 ## Local Preview
 
-Open `index.html` directly in a browser.
+Open `index.html` or `cv.html` directly in a browser.
 
 Optional local server:
 
@@ -27,3 +27,10 @@ Fastest options:
 
 For Vercel, add the exact DNS records Vercel gives you for `deivids.ghocoyops.com`.
 Usually that means adding a `CNAME` record for `deivids` pointing to Vercel's target.
+
+For the current Cloudflare manual upload deployment, upload:
+
+- `index.html`
+- `cv.html`
+- `styles.css`
+- `README.md`

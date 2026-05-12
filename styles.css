@@ -615,6 +615,40 @@ li + li {
   font-size: 0.86rem;
 }
 
+.letter-shell {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: clamp(40px, 6vw, 76px) clamp(22px, 5vw, 48px);
+}
+
+.letter-header {
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--ink);
+}
+
+.letter-header h1 {
+  margin-bottom: 8px;
+  font-size: clamp(2.4rem, 6vw, 4.4rem);
+}
+
+.letter-header p,
+.letter-body p {
+  color: #333933;
+  font-size: 1.02rem;
+}
+
+.letter-header a,
+.letter-body a {
+  color: var(--green-dark);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.letter-body {
+  padding-top: 26px;
+}
+
 @media print {
   @page {
     size: A4;
@@ -717,5 +751,30 @@ li + li {
   .tags span,
   .skill-list span {
     box-shadow: none;
+  }
+
+  .letter-shell {
+    max-width: none;
+    padding: 0;
+  }
+
+  .letter-header {
+    padding-bottom: 14px;
+  }
+
+  .letter-header h1 {
+    margin-bottom: 5px;
+    font-size: 32px;
+  }
+
+  .letter-header p,
+  .letter-body p {
+    margin-bottom: 12px;
+    font-size: 12.5px;
+    line-height: 1.45;
+  }
+
+  .letter-body {
+    padding-top: 18px;
   }
 }

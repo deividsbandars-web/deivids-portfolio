@@ -1,36 +1,38 @@
 # Deivids Bandars Portfolio
 
-Static portfolio and CV site intended for `deivids.ghocoyops.com`.
+Personal portfolio and public CV site.
 
-## Local Preview
+Live: https://deivids.ghocoyops.com  
+CV: https://deivids.ghocoyops.com/cv.html
 
-Open `index.html` or `cv.html` directly in a browser.
+I use this site to present the software projects I have built while moving into a professional technical career.
 
-Optional local server:
+## Included
 
-```bash
-npx serve .
-```
+- Portfolio landing page
+- Public web CV
+- LinkedIn banner asset
 
-## Deploy
+## Project Focus
 
-Fastest options:
+- AI-assisted product development
+- Full-stack web applications
+- Mobile app foundations
+- QA, release, and automation workflows
+- Technical documentation
 
-1. Push this folder to a GitHub repository, for example `deivids-portfolio`.
-2. Import the repository in Vercel, Netlify, or Cloudflare Pages.
-3. Use static settings:
-   - Build command: none
-   - Output directory: `.`
-4. Add custom domain: `deivids.ghocoyops.com`.
+## Technologies
 
-## DNS
+- TypeScript
+- Next.js
+- React
+- Supabase
+- PostgreSQL
+- React Native / Expo
+- Node.js
+- GitHub Actions
+- QA / release automation
 
-For Vercel, add the exact DNS records Vercel gives you for `deivids.ghocoyops.com`.
-Usually that means adding a `CNAME` record for `deivids` pointing to Vercel's target.
+## Notes
 
-For the current Cloudflare manual upload deployment, upload:
-
-- `index.html`
-- `cv.html`
-- `styles.css`
-- `README.md`
+Most of my larger product repositories are currently private. This public site is the summary layer for recruiters and hiring teams.

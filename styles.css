@@ -478,6 +478,17 @@ li + li {
   font-size: clamp(1.8rem, 3vw, 3rem);
 }
 
+.contact-email {
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.contact-email span {
+  color: var(--ink);
+  user-select: all;
+}
+
 @media (max-width: 920px) {
   .site-header {
     align-items: flex-start;

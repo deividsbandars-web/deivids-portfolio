@@ -618,7 +618,7 @@ li + li {
 @media print {
   @page {
     size: A4;
-    margin: 10mm 11mm;
+    margin: 13mm 14mm;
   }
 
   .site-header {
@@ -636,81 +636,81 @@ li + li {
   }
 
   .cv-hero {
-    padding-bottom: 12px;
+    padding-bottom: 18px;
   }
 
   .cv-hero h1 {
-    margin-bottom: 4px;
-    font-size: 34px;
+    margin-bottom: 6px;
+    font-size: 42px;
   }
 
   .cv-title {
-    margin-bottom: 6px;
-    font-size: 17px;
+    margin-bottom: 9px;
+    font-size: 20px;
   }
 
   .eyebrow {
-    margin-bottom: 6px;
-    font-size: 10px;
+    margin-bottom: 8px;
+    font-size: 11px;
   }
 
   .cv-hero p,
   .cv-section p {
-    margin-bottom: 6px;
-    font-size: 11px;
-    line-height: 1.35;
+    margin-bottom: 8px;
+    font-size: 12.25px;
+    line-height: 1.45;
   }
 
   .contact-email {
-    margin-top: 4px;
+    margin-top: 7px;
   }
 
   .cv-section {
     break-inside: avoid;
-    padding: 10px 0;
+    padding: 15px 0;
   }
 
   .cv-section h2 {
-    margin-bottom: 7px;
-    font-size: 17px;
+    margin-bottom: 10px;
+    font-size: 21px;
   }
 
   .cv-item + .cv-item {
-    margin-top: 9px;
+    margin-top: 13px;
   }
 
   .cv-item h3 {
-    margin-bottom: 2px;
-    font-size: 12.5px;
+    margin-bottom: 3px;
+    font-size: 14px;
   }
 
   .cv-meta {
-    margin-bottom: 4px;
-    font-size: 10.5px;
+    margin-bottom: 6px;
+    font-size: 12px;
   }
 
   ul {
-    margin-top: 5px;
-    padding-left: 16px;
+    margin-top: 7px;
+    padding-left: 18px;
   }
 
   li {
-    font-size: 10.5px;
-    line-height: 1.32;
+    font-size: 12px;
+    line-height: 1.42;
   }
 
   li + li {
-    margin-top: 2px;
+    margin-top: 3px;
   }
 
   .skill-list {
-    gap: 5px;
+    gap: 7px;
   }
 
   .skill-list.compact span {
     min-height: 0;
-    padding: 3px 6px;
-    font-size: 9.5px;
+    padding: 4px 7px;
+    font-size: 11px;
   }
 
   .button,
